@@ -1,17 +1,11 @@
-# Chapter 02: Intelligent Agents
+# Intelligent Agents
 
 ## Overview
 
-PEAS-style rational taxi agent example.
+Rational agents and environments.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Intelligent Agents
-

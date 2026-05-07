@@ -1,27 +1,89 @@
-# AIMA-X V2
+# AIMA-X V3
 
-A deep educational AI systems repository inspired by:
+<p align="center">
+  <h1 align="center">AIMA-X V3</h1>
+  <p align="center">
+    AI Engineering Laboratory • Interactive Demos • Modern AI Systems
+  </p>
+</p>
 
-- Artificial Intelligence: A Modern Approach
-- Modern ML systems
-- Reinforcement learning
-- Transformers
-- Robotics
-- Probabilistic AI
+---
 
-## Philosophy
+# Philosophy
 
-This repository intentionally avoids shallow placeholder code.
+Most educational AI repositories suffer from:
 
-Each chapter:
-- demonstrates a UNIQUE AI concept
-- includes runnable examples
-- mirrors the conceptual flavor of the chapter
-- acts as a learning scaffold for deeper exploration
+- placeholder code
+- repetitive examples
+- shallow demos
+- no visual interaction
 
-## Run
+AIMA-X V3 attempts to solve this.
+
+This repository combines:
+
+- classical AI
+- modern ML
+- reinforcement learning
+- transformers
+- search systems
+- interactive demos
+- engineering playgrounds
+
+---
+
+# Anchor Projects
+
+## Search Visualizer
+Interactive BFS/A* maze exploration.
+
+## Reinforcement Learning Arena
+Q-learning agent learns navigation policies.
+
+## Minimax TicTacToe
+Adversarial AI agent.
+
+## Transformer Attention Explorer
+Simple token attention visualization.
+
+---
+
+# Quick Start
 
 ```bash
 python launcher.py
 ```
+
+---
+
+# Educational Goals
+
+- Learn core AI algorithms
+- Understand search + planning
+- Explore reinforcement learning
+- Visualize transformer attention
+- Experiment with agents
+
+---
+
+# Structure
+
+```text
+chapter-*/
+playgrounds/
+streamlit_app/
+benchmarks/
+assets/
+docs/
+```
+
+---
+
+# Technologies
+
+- Python
+- NumPy
+- PyTorch
+- Streamlit
+- Matplotlib
 

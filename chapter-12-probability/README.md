@@ -1,17 +1,11 @@
-# Chapter 12: Quantifying Uncertainty
+# Probability
 
 ## Overview
 
-Bayesian probability example.
+Reasoning under uncertainty.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Quantifying Uncertainty
-

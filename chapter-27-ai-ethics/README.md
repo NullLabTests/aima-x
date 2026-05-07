@@ -1,17 +1,11 @@
-# Chapter 27: AI Ethics and Safety
+# AI Ethics
 
 ## Overview
 
-Simple alignment scoring example.
+Alignment and safe AI systems.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-AI Ethics and Safety
-

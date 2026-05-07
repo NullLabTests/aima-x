@@ -1,17 +1,11 @@
-# Chapter 01: Introduction to AI
+# Introduction
 
 ## Overview
 
-Simple reflex agent interacting with an environment.
+Foundations of artificial intelligence.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Introduction to AI
-

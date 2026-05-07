@@ -1,17 +1,11 @@
-# Chapter 11: Automated Planning
+# Planning
 
 ## Overview
 
-Simple action sequence planner.
+Automated planning systems.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Automated Planning
-

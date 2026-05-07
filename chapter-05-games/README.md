@@ -1,17 +1,11 @@
-# Chapter 05: Adversarial Search
+# Games
 
 ## Overview
 
-Simple minimax recursion example.
+Adversarial search and minimax.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Adversarial Search
-

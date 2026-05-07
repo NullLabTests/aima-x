@@ -1,8 +1,9 @@
 __pycache__/
 *.py[cod]
+*.so
 .venv/
 venv/
 .ipynb_checkpoints/
-.DS_Store
 .idea/
 .vscode/
+.DS_Store

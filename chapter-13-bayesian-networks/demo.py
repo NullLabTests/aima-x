@@ -1,26 +1,10 @@
-#!/usr/bin/env python3
-
-"""
-AIMA-X V2
-Chapter 13: Probabilistic Reasoning
-"""
-
 print("=" * 70)
-print("Probabilistic Reasoning")
+print("Bayesian Networks")
 print("=" * 70)
 
-print()
-print("Simple Bayesian network dependency.")
-print()
-
-
-network = {
-    "Rain": ["WetGrass"]
-}
-
-for parent, child in network.items():
-    print(parent, "causes", child[0])
-
+print("Probabilistic graphical models.")
 
 print()
-print("✅ Demo completed")
+
+print("This chapter serves as a conceptual bridge")
+print("to deeper playground systems inside /playgrounds.")

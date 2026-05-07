@@ -1,17 +1,11 @@
-# Chapter 28: The Future of AI
+# Future of AI
 
 ## Overview
 
-Simple exponential capability growth simulation.
+Frontier capabilities and research.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-The Future of AI
-

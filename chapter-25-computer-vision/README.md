@@ -1,17 +1,11 @@
-# Chapter 25: Computer Vision
+# Computer Vision
 
 ## Overview
 
-Edge detection concept using arrays.
+Visual perception systems.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Computer Vision
-

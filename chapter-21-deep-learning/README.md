@@ -1,17 +1,11 @@
-# Chapter 21: Deep Learning
+# Deep Learning
 
 ## Overview
 
-Simple neuron activation.
+Neural networks and representation learning.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Deep Learning
-

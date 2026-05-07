@@ -1,17 +1,11 @@
-# Chapter 06: Constraint Satisfaction Problems
+# Constraint Satisfaction
 
 ## Overview
 
-Simple map coloring constraint checker.
+Constraint propagation systems.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Constraint Satisfaction Problems
-

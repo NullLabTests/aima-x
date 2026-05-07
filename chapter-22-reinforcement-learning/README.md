@@ -1,17 +1,11 @@
-# Chapter 22: Reinforcement Learning
+# Reinforcement Learning
 
 ## Overview
 
-Simple Q-learning table update.
+Learning through reward signals.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Reinforcement Learning
-

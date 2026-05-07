@@ -1,17 +1,11 @@
-# Chapter 08: First Order Logic
+# First Order Logic
 
 ## Overview
 
-Representing facts about humans.
+Knowledge representation.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-First Order Logic
-

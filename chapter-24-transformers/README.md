@@ -1,17 +1,11 @@
-# Chapter 24: Transformers and Attention
+# Transformers
 
 ## Overview
 
-Simple attention weight example.
+Attention-based architectures.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Transformers and Attention
-

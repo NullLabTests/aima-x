@@ -1,17 +1,11 @@
-# Chapter 09: Inference Systems
+# Inference
 
 ## Overview
 
-Forward chaining demonstration.
+Automated theorem proving.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Inference Systems
-

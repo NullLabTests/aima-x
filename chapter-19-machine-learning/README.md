@@ -1,17 +1,11 @@
-# Chapter 19: Learning From Examples
+# Machine Learning
 
 ## Overview
 
-Simple linear regression fit.
+Learning from examples.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Learning From Examples
-

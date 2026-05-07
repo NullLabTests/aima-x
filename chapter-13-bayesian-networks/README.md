@@ -1,17 +1,11 @@
-# Chapter 13: Probabilistic Reasoning
+# Bayesian Networks
 
 ## Overview
 
-Simple Bayesian network dependency.
+Probabilistic graphical models.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Probabilistic Reasoning
-

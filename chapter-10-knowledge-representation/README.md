@@ -1,17 +1,11 @@
-# Chapter 10: Knowledge Representation
+# Knowledge Representation
 
 ## Overview
 
-Semantic network graph example.
+Ontologies and semantic systems.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Knowledge Representation
-

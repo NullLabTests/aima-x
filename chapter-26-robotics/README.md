@@ -1,17 +1,11 @@
-# Chapter 26: Robotics
+# Robotics
 
 ## Overview
 
-Simple robot localization update.
+Agents in physical environments.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Robotics
-

@@ -1,17 +1,11 @@
-# Chapter 15: Probabilistic Programming
+# Probabilistic Programming
 
 ## Overview
 
-Sampling random events.
+Sampling and stochastic systems.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Probabilistic Programming
-

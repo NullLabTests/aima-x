@@ -1,39 +1,10 @@
-#!/usr/bin/env python3
-
-"""
-AIMA-X V2
-Chapter 06: Constraint Satisfaction Problems
-"""
-
 print("=" * 70)
-print("Constraint Satisfaction Problems")
+print("Constraint Satisfaction")
 print("=" * 70)
 
-print()
-print("Simple map coloring constraint checker.")
-print()
-
-
-regions = {
-    "A": "red",
-    "B": "blue",
-    "C": "red"
-}
-
-constraints = [
-    ("A", "B"),
-    ("B", "C")
-]
-
-valid = True
-
-for a, b in constraints:
-
-    if regions[a] == regions[b]:
-        valid = False
-
-print("Constraint satisfaction:", valid)
-
+print("Constraint propagation systems.")
 
 print()
-print("✅ Demo completed")
+
+print("This chapter serves as a conceptual bridge")
+print("to deeper playground systems inside /playgrounds.")

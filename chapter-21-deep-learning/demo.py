@@ -1,28 +1,10 @@
-#!/usr/bin/env python3
-
-"""
-AIMA-X V2
-Chapter 21: Deep Learning
-"""
-
 print("=" * 70)
 print("Deep Learning")
 print("=" * 70)
 
-print()
-print("Simple neuron activation.")
-print()
-
-
-weights = [0.2, 0.5]
-inputs = [1.0, 2.0]
-
-activation = sum(
-    w * i for w, i in zip(weights, inputs)
-)
-
-print("Neuron activation:", activation)
-
+print("Neural networks and representation learning.")
 
 print()
-print("✅ Demo completed")
+
+print("This chapter serves as a conceptual bridge")
+print("to deeper playground systems inside /playgrounds.")

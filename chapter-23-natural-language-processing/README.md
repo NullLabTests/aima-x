@@ -1,17 +1,11 @@
-# Chapter 23: Natural Language Processing
+# Natural Language Processing
 
 ## Overview
 
-Tokenization example.
+Language understanding systems.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Natural Language Processing
-

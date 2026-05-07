@@ -1,17 +1,11 @@
-# Chapter 20: Learning Probabilistic Models
+# Bayesian Learning
 
 ## Overview
 
-Maximum likelihood estimate.
+Probabilistic learning systems.
 
 ## Run
 
 ```bash
 python demo.py
 ```
-
-## Educational Goal
-
-Understand the core AI idea behind:
-Learning Probabilistic Models
-
