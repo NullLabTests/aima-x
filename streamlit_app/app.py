@@ -1,19 +1,18 @@
 import streamlit as st
 
-st.title("AIMA-X V3")
+st.title("AIMA-X")
 
-st.write(
-    "Interactive AI Engineering Laboratory"
-)
+st.subheader("Modern AI Systems Laboratory")
 
-st.header("Modules")
-
-modules = [
+sections = [
     "Search",
     "Reinforcement Learning",
     "Transformers",
-    "Robotics"
+    "Multi-Agent Systems",
+    "Probabilistic AI"
 ]
 
-for m in modules:
-    st.write("-", m)
+for section in sections:
+    st.write("-", section)
+
+st.success("Interactive AI Engineering Playground Ready")

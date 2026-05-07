@@ -1,10 +1,19 @@
-# AIMA-X V3 Architecture
+# AIMA-X Architecture
 
-This repository is organized around:
+## Layers
 
-- educational chapters
-- interactive playgrounds
-- AI engineering demos
-- experimentation systems
+### Upstream
+Official AIMA implementations.
 
-The /playgrounds directory contains the deepest demos.
+### Playgrounds
+Interactive AI systems.
+
+### Benchmarks
+Performance evaluation.
+
+### Streamlit
+Visualization dashboard.
+
+### Assets
+Screenshots and GIFs.
+

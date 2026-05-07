@@ -3,32 +3,40 @@
 import os
 
 print("=" * 70)
-print("AIMA-X V3 :: AI Engineering Lab")
+print("AIMA-X :: AI SYSTEMS LAB")
 print("=" * 70)
 
-targets = sorted([
-    d for d in os.listdir(".")
-    if d.startswith("chapter-") or d == "playgrounds"
-])
+targets = []
 
-for i, target in enumerate(targets, start=1):
-    print(f"{i:02d}. {target}")
+for folder in sorted(os.listdir(".")):
+
+    if folder.startswith("playgrounds"):
+        targets.append(folder)
+
+    elif folder.startswith("chapter-"):
+        targets.append(folder)
+
+for i, t in enumerate(targets, start=1):
+    print(f"{i:02d}. {t}")
 
 choice = input("\nSelect target: ")
 
 try:
 
     idx = int(choice) - 1
-    selected = targets[idx]
 
-    if selected == "playgrounds":
-        print("\nAvailable playgrounds:\n")
+    target = targets[idx]
 
-        for file in os.listdir("playgrounds"):
-            print(" -", file)
+    if target == "playgrounds":
+
+        print("\nPlaygrounds:\n")
+
+        for item in os.listdir("playgrounds"):
+            print("-", item)
 
     else:
-        os.system(f'python "{selected}/demo.py"')
+
+        os.system(f'python "{target}/demo.py"')
 
 except Exception as e:
     print("Error:", e)

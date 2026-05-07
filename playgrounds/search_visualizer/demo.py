@@ -17,14 +17,14 @@ queue = deque([start])
 
 visited = set()
 
-directions = [
+dirs = [
     (1, 0),
     (-1, 0),
     (0, 1),
     (0, -1)
 ]
 
-print("\nBFS Maze Exploration:\n")
+print("\nBFS SEARCH VISUALIZATION\n")
 
 while queue:
 
@@ -35,13 +35,13 @@ while queue:
 
     visited.add((r, c))
 
-    print(f"Visited: {(r, c)}")
+    print(f"Expanded: {(r, c)}")
 
     if maze[r][c] == "G":
         print("\nGoal reached!")
         break
 
-    for dr, dc in directions:
+    for dr, dc in dirs:
 
         nr, nc = r + dr, c + dc
 
