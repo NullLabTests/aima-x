@@ -2,14 +2,7 @@
 
 ## Overview
 
-NLP systems.
-
-## Files
-
-- demo.py
-- notebook.ipynb
-- tests/
-- assets/
+Tokenization example.
 
 ## Run
 
@@ -17,10 +10,8 @@ NLP systems.
 python demo.py
 ```
 
-## Learning Goals
+## Educational Goal
 
-- Understand core concepts
-- Extend implementations
-- Experiment with algorithms
-- Compare performance
+Understand the core AI idea behind:
+Natural Language Processing
 

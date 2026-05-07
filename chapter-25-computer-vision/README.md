@@ -2,14 +2,7 @@
 
 ## Overview
 
-Vision systems and CNNs.
-
-## Files
-
-- demo.py
-- notebook.ipynb
-- tests/
-- assets/
+Edge detection concept using arrays.
 
 ## Run
 
@@ -17,10 +10,8 @@ Vision systems and CNNs.
 python demo.py
 ```
 
-## Learning Goals
+## Educational Goal
 
-- Understand core concepts
-- Extend implementations
-- Experiment with algorithms
-- Compare performance
+Understand the core AI idea behind:
+Computer Vision
 

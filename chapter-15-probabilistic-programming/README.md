@@ -2,14 +2,7 @@
 
 ## Overview
 
-Probabilistic programming models.
-
-## Files
-
-- demo.py
-- notebook.ipynb
-- tests/
-- assets/
+Sampling random events.
 
 ## Run
 
@@ -17,10 +10,8 @@ Probabilistic programming models.
 python demo.py
 ```
 
-## Learning Goals
+## Educational Goal
 
-- Understand core concepts
-- Extend implementations
-- Experiment with algorithms
-- Compare performance
+Understand the core AI idea behind:
+Probabilistic Programming
 

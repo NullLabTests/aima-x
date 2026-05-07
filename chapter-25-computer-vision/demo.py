@@ -1,44 +1,30 @@
 #!/usr/bin/env python3
 
 """
-AIMA-X Chapter 25
-Computer Vision
+AIMA-X V2
+Chapter 25: Computer Vision
 """
 
 print("=" * 70)
-print("AIMA-X :: Chapter 25")
 print("Computer Vision")
 print("=" * 70)
 
 print()
-print("Vision systems and CNNs.")
+print("Edge detection concept using arrays.")
 print()
 
 
-from collections import deque
+image = [
+    [0, 0, 1],
+    [1, 1, 0]
+]
 
-graph = {
-    "A": ["B", "C"],
-    "B": ["D", "E"],
-    "C": ["F"],
-    "D": [],
-    "E": [],
-    "F": []
-}
+edges = []
 
-def bfs(start):
-    visited = set()
-    queue = deque([start])
+for row in image:
+    edges.append(max(row) - min(row))
 
-    while queue:
-        node = queue.popleft()
-
-        if node not in visited:
-            print("Visited:", node)
-            visited.add(node)
-            queue.extend(graph[node])
-
-bfs("A")
+print("Detected edges:", edges)
 
 
 print()

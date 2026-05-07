@@ -2,30 +2,25 @@
 
 import os
 
-print("=" * 60)
-print("AIMA-X :: AI Engineering Launcher")
-print("=" * 60)
-
 chapters = sorted([
     d for d in os.listdir(".")
     if d.startswith("chapter-")
 ])
 
+print("=" * 70)
+print("AIMA-X V2 :: Educational AI Systems")
+print("=" * 70)
+
 for i, chapter in enumerate(chapters, start=1):
     print(f"{i:02d}. {chapter}")
 
-print()
-choice = input("Select chapter number: ")
+choice = input("\nSelect chapter: ")
 
 try:
     idx = int(choice) - 1
     selected = chapters[idx]
 
-    path = os.path.join(selected, "demo.py")
-
-    print(f"\nLaunching {selected}...\n")
-
-    os.system(f'python "{path}"')
+    os.system(f'python "{selected}/demo.py"')
 
 except Exception as e:
-    print("Invalid selection:", e)
+    print("Error:", e)

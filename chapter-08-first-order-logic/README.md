@@ -2,14 +2,7 @@
 
 ## Overview
 
-Symbolic reasoning and knowledge.
-
-## Files
-
-- demo.py
-- notebook.ipynb
-- tests/
-- assets/
+Representing facts about humans.
 
 ## Run
 
@@ -17,10 +10,8 @@ Symbolic reasoning and knowledge.
 python demo.py
 ```
 
-## Learning Goals
+## Educational Goal
 
-- Understand core concepts
-- Extend implementations
-- Experiment with algorithms
-- Compare performance
+Understand the core AI idea behind:
+First Order Logic
 

@@ -2,14 +2,7 @@
 
 ## Overview
 
-Q-learning and RL.
-
-## Files
-
-- demo.py
-- notebook.ipynb
-- tests/
-- assets/
+Simple Q-learning table update.
 
 ## Run
 
@@ -17,10 +10,8 @@ Q-learning and RL.
 python demo.py
 ```
 
-## Learning Goals
+## Educational Goal
 
-- Understand core concepts
-- Extend implementations
-- Experiment with algorithms
-- Compare performance
+Understand the core AI idea behind:
+Reinforcement Learning
 

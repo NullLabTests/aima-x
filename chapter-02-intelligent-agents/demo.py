@@ -1,44 +1,33 @@
 #!/usr/bin/env python3
 
 """
-AIMA-X Chapter 02
-Intelligent Agents
+AIMA-X V2
+Chapter 02: Intelligent Agents
 """
 
 print("=" * 70)
-print("AIMA-X :: Chapter 02")
 print("Intelligent Agents")
 print("=" * 70)
 
 print()
-print("Rational agents and environments.")
+print("PEAS-style rational taxi agent example.")
 print()
 
 
-from collections import deque
+class TaxiAgent:
 
-graph = {
-    "A": ["B", "C"],
-    "B": ["D", "E"],
-    "C": ["F"],
-    "D": [],
-    "E": [],
-    "F": []
-}
+    def choose_action(self, traffic):
 
-def bfs(start):
-    visited = set()
-    queue = deque([start])
+        if traffic == "heavy":
+            return "reroute"
 
-    while queue:
-        node = queue.popleft()
+        return "continue"
 
-        if node not in visited:
-            print("Visited:", node)
-            visited.add(node)
-            queue.extend(graph[node])
+agent = TaxiAgent()
 
-bfs("A")
+for traffic in ["light", "heavy"]:
+    print(f"Traffic: {traffic}")
+    print("Action:", agent.choose_action(traffic))
 
 
 print()

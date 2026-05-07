@@ -1,12 +1,8 @@
 __pycache__/
 *.py[cod]
-*.so
-venv/
 .venv/
+venv/
 .ipynb_checkpoints/
+.DS_Store
 .idea/
 .vscode/
-.DS_Store
-dist/
-build/
-*.egg-info/

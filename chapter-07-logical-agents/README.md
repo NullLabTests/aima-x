@@ -2,14 +2,7 @@
 
 ## Overview
 
-Logic and inference systems.
-
-## Files
-
-- demo.py
-- notebook.ipynb
-- tests/
-- assets/
+Simple propositional logic implication.
 
 ## Run
 
@@ -17,10 +10,8 @@ Logic and inference systems.
 python demo.py
 ```
 
-## Learning Goals
+## Educational Goal
 
-- Understand core concepts
-- Extend implementations
-- Experiment with algorithms
-- Compare performance
+Understand the core AI idea behind:
+Logical Agents
 

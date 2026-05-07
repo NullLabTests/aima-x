@@ -1,42 +1,30 @@
 #!/usr/bin/env python3
 
 """
-AIMA-X Chapter 22
-Reinforcement Learning
+AIMA-X V2
+Chapter 22: Reinforcement Learning
 """
 
 print("=" * 70)
-print("AIMA-X :: Chapter 22")
 print("Reinforcement Learning")
 print("=" * 70)
 
 print()
-print("Q-learning and RL.")
+print("Simple Q-learning table update.")
 print()
 
 
-import random
+q = {
+    "state": {
+        "left": 0.0
+    }
+}
 
-q_table = {}
+reward = 5
 
-states = ["A", "B", "C"]
-actions = ["left", "right"]
+q["state"]["left"] += 0.1 * reward
 
-for state in states:
-    q_table[state] = {a: 0.0 for a in actions}
-
-for episode in range(10):
-
-    state = random.choice(states)
-
-    action = random.choice(actions)
-
-    reward = random.randint(0, 10)
-
-    q_table[state][action] += 0.1 * reward
-
-print("Q-table:")
-print(q_table)
+print(q)
 
 
 print()

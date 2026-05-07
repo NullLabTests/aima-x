@@ -2,14 +2,7 @@
 
 ## Overview
 
-Robotics and SLAM.
-
-## Files
-
-- demo.py
-- notebook.ipynb
-- tests/
-- assets/
+Simple robot localization update.
 
 ## Run
 
@@ -17,10 +10,8 @@ Robotics and SLAM.
 python demo.py
 ```
 
-## Learning Goals
+## Educational Goal
 
-- Understand core concepts
-- Extend implementations
-- Experiment with algorithms
-- Compare performance
+Understand the core AI idea behind:
+Robotics
 

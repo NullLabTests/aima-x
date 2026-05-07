@@ -1,44 +1,26 @@
 #!/usr/bin/env python3
 
 """
-AIMA-X Chapter 10
-Knowledge Representation
+AIMA-X V2
+Chapter 10: Knowledge Representation
 """
 
 print("=" * 70)
-print("AIMA-X :: Chapter 10")
 print("Knowledge Representation")
 print("=" * 70)
 
 print()
-print("Knowledge engineering systems.")
+print("Semantic network graph example.")
 print()
 
 
-from collections import deque
-
-graph = {
-    "A": ["B", "C"],
-    "B": ["D", "E"],
-    "C": ["F"],
-    "D": [],
-    "E": [],
-    "F": []
+knowledge = {
+    "bird": ["animal"],
+    "sparrow": ["bird"]
 }
 
-def bfs(start):
-    visited = set()
-    queue = deque([start])
-
-    while queue:
-        node = queue.popleft()
-
-        if node not in visited:
-            print("Visited:", node)
-            visited.add(node)
-            queue.extend(graph[node])
-
-bfs("A")
+for entity, parent in knowledge.items():
+    print(entity, "->", parent)
 
 
 print()

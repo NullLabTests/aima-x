@@ -1,44 +1,24 @@
 #!/usr/bin/env python3
 
 """
-AIMA-X Chapter 23
-Natural Language Processing
+AIMA-X V2
+Chapter 23: Natural Language Processing
 """
 
 print("=" * 70)
-print("AIMA-X :: Chapter 23")
 print("Natural Language Processing")
 print("=" * 70)
 
 print()
-print("NLP systems.")
+print("Tokenization example.")
 print()
 
 
-from collections import deque
+sentence = "AI systems process language"
 
-graph = {
-    "A": ["B", "C"],
-    "B": ["D", "E"],
-    "C": ["F"],
-    "D": [],
-    "E": [],
-    "F": []
-}
+tokens = sentence.split()
 
-def bfs(start):
-    visited = set()
-    queue = deque([start])
-
-    while queue:
-        node = queue.popleft()
-
-        if node not in visited:
-            print("Visited:", node)
-            visited.add(node)
-            queue.extend(graph[node])
-
-bfs("A")
+print(tokens)
 
 
 print()

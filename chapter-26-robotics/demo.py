@@ -1,44 +1,27 @@
 #!/usr/bin/env python3
 
 """
-AIMA-X Chapter 26
-Robotics
+AIMA-X V2
+Chapter 26: Robotics
 """
 
 print("=" * 70)
-print("AIMA-X :: Chapter 26")
 print("Robotics")
 print("=" * 70)
 
 print()
-print("Robotics and SLAM.")
+print("Simple robot localization update.")
 print()
 
 
-from collections import deque
+position = [0, 0]
 
-graph = {
-    "A": ["B", "C"],
-    "B": ["D", "E"],
-    "C": ["F"],
-    "D": [],
-    "E": [],
-    "F": []
-}
+movement = [1, 2]
 
-def bfs(start):
-    visited = set()
-    queue = deque([start])
+position[0] += movement[0]
+position[1] += movement[1]
 
-    while queue:
-        node = queue.popleft()
-
-        if node not in visited:
-            print("Visited:", node)
-            visited.add(node)
-            queue.extend(graph[node])
-
-bfs("A")
+print("Robot position:", position)
 
 
 print()

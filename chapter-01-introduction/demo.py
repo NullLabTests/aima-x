@@ -1,44 +1,36 @@
 #!/usr/bin/env python3
 
 """
-AIMA-X Chapter 01
-Introduction
+AIMA-X V2
+Chapter 01: Introduction to AI
 """
 
 print("=" * 70)
-print("AIMA-X :: Chapter 01")
-print("Introduction")
+print("Introduction to AI")
 print("=" * 70)
 
 print()
-print("Introduction to AI systems and intelligent behavior.")
+print("Simple reflex agent interacting with an environment.")
 print()
 
 
-from collections import deque
+class ReflexAgent:
 
-graph = {
-    "A": ["B", "C"],
-    "B": ["D", "E"],
-    "C": ["F"],
-    "D": [],
-    "E": [],
-    "F": []
-}
+    def perceive(self, env):
+        return env
 
-def bfs(start):
-    visited = set()
-    queue = deque([start])
+    def act(self, percept):
 
-    while queue:
-        node = queue.popleft()
+        if percept == "dirty":
+            return "clean"
 
-        if node not in visited:
-            print("Visited:", node)
-            visited.add(node)
-            queue.extend(graph[node])
+        return "idle"
 
-bfs("A")
+agent = ReflexAgent()
+
+for state in ["dirty", "clean"]:
+    action = agent.act(agent.perceive(state))
+    print(f"Environment: {state} -> Action: {action}")
 
 
 print()

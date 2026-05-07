@@ -1,15 +1,8 @@
-# Chapter 01: Introduction
+# Chapter 01: Introduction to AI
 
 ## Overview
 
-Introduction to AI systems and intelligent behavior.
-
-## Files
-
-- demo.py
-- notebook.ipynb
-- tests/
-- assets/
+Simple reflex agent interacting with an environment.
 
 ## Run
 
@@ -17,10 +10,8 @@ Introduction to AI systems and intelligent behavior.
 python demo.py
 ```
 
-## Learning Goals
+## Educational Goal
 
-- Understand core concepts
-- Extend implementations
-- Experiment with algorithms
-- Compare performance
+Understand the core AI idea behind:
+Introduction to AI
 

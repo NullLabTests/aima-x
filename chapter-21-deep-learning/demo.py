@@ -1,44 +1,27 @@
 #!/usr/bin/env python3
 
 """
-AIMA-X Chapter 21
-Deep Learning
+AIMA-X V2
+Chapter 21: Deep Learning
 """
 
 print("=" * 70)
-print("AIMA-X :: Chapter 21")
 print("Deep Learning")
 print("=" * 70)
 
 print()
-print("Deep neural networks.")
+print("Simple neuron activation.")
 print()
 
 
-from collections import deque
+weights = [0.2, 0.5]
+inputs = [1.0, 2.0]
 
-graph = {
-    "A": ["B", "C"],
-    "B": ["D", "E"],
-    "C": ["F"],
-    "D": [],
-    "E": [],
-    "F": []
-}
+activation = sum(
+    w * i for w, i in zip(weights, inputs)
+)
 
-def bfs(start):
-    visited = set()
-    queue = deque([start])
-
-    while queue:
-        node = queue.popleft()
-
-        if node not in visited:
-            print("Visited:", node)
-            visited.add(node)
-            queue.extend(graph[node])
-
-bfs("A")
+print("Neuron activation:", activation)
 
 
 print()

@@ -2,14 +2,7 @@
 
 ## Overview
 
-Rational agents and environments.
-
-## Files
-
-- demo.py
-- notebook.ipynb
-- tests/
-- assets/
+PEAS-style rational taxi agent example.
 
 ## Run
 
@@ -17,10 +10,8 @@ Rational agents and environments.
 python demo.py
 ```
 
-## Learning Goals
+## Educational Goal
 
-- Understand core concepts
-- Extend implementations
-- Experiment with algorithms
-- Compare performance
+Understand the core AI idea behind:
+Intelligent Agents
 

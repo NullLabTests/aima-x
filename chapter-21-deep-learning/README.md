@@ -2,14 +2,7 @@
 
 ## Overview
 
-Deep neural networks.
-
-## Files
-
-- demo.py
-- notebook.ipynb
-- tests/
-- assets/
+Simple neuron activation.
 
 ## Run
 
@@ -17,10 +10,8 @@ Deep neural networks.
 python demo.py
 ```
 
-## Learning Goals
+## Educational Goal
 
-- Understand core concepts
-- Extend implementations
-- Experiment with algorithms
-- Compare performance
+Understand the core AI idea behind:
+Deep Learning
 

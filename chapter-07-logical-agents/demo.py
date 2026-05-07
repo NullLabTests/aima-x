@@ -1,44 +1,26 @@
 #!/usr/bin/env python3
 
 """
-AIMA-X Chapter 07
-Logical Agents
+AIMA-X V2
+Chapter 07: Logical Agents
 """
 
 print("=" * 70)
-print("AIMA-X :: Chapter 07")
 print("Logical Agents")
 print("=" * 70)
 
 print()
-print("Logic and inference systems.")
+print("Simple propositional logic implication.")
 print()
 
 
-from collections import deque
+rain = True
 
-graph = {
-    "A": ["B", "C"],
-    "B": ["D", "E"],
-    "C": ["F"],
-    "D": [],
-    "E": [],
-    "F": []
-}
+if rain:
+    wet_ground = True
 
-def bfs(start):
-    visited = set()
-    queue = deque([start])
-
-    while queue:
-        node = queue.popleft()
-
-        if node not in visited:
-            print("Visited:", node)
-            visited.add(node)
-            queue.extend(graph[node])
-
-bfs("A")
+print("Rain:", rain)
+print("Wet ground:", wet_ground)
 
 
 print()
